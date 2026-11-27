@@ -14,3 +14,7 @@ Offline-capable, self-contained HTML chart comparing historical Nasdaq ORB, OLS1
 ## Mobile layout
 
 Optimized for iPhone-sized portrait screens, including 375, 390, and 430 CSS pixel viewports. The interface scrolls vertically, preserves an independent chart and readable KPI cards, provides touch-based chart seeking, a quick jump to the last backtest day, and accessible model/method panels. The line style legend appears when both prop variants are shown.
+
+## Simplified mobile navigation (portrait and landscape)
+
+The chart is the default focus. Time window, prop-financing mode, view, axis style, model visibility and methodology are now hidden by default behind a single **Menü** control on mobile devices in both orientations. Selecting an option closes the popover; outside taps and Escape dismiss it. The animation controls, capital values, line-style legend and time scrub remain accessible without opening the menu. Verified on 390×844 and 844×390 emulated touch displays.

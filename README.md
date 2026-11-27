@@ -10,3 +10,7 @@ Offline-capable, self-contained HTML chart comparing historical Nasdaq ORB, OLS1
 - 17% protected private cash reserve, hypothetical prop 2% stop risk, private 10% stop risk, 18x notional ceiling, 1.9 index points spread and 0.5 points slippage per fill in the Nasdaq research replays.
 
 **Important:** Historical, retrospectively modelled results, not independently validated forward performance. Prop-firm terms and fills are hypothetical. Original 7 uses a different strategy composition from the individual Nasdaq variants. Nominal prop account balances are **not** counted as owned capital. This repository contains only the standalone visualization, not trading execution code.
+
+## Mobile layout
+
+Optimized for iPhone-sized portrait screens, including 375, 390, and 430 CSS pixel viewports. The interface scrolls vertically, preserves an independent chart and readable KPI cards, provides touch-based chart seeking, a quick jump to the last backtest day, and accessible model/method panels. The line style legend appears when both prop variants are shown.
